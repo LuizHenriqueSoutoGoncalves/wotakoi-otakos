@@ -46,9 +46,13 @@
 }
 
 .subtitulo-destaque {
-    padding: 3px;
-    font-size: 50px;
-    margin: 30px;
+    padding-bottom: 1px;
+    padding-right: 100px;
+    padding-left: 90px;
+    font-size: 1.6rem;
+    margin: 0px;
+    background-color: pink;
+    font-family: sans-serif;
 }
 
 .container {
@@ -92,8 +96,11 @@
 }
 
 .NARUMI {
-    font-size: 25px;
-    margin: 30px;
+    white-space: normal;
+    font-size: 1.2rem;
+    margin: 30px; transform: translate(0%, -323%);
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 2px 2px black;
 }
 
 .Hirotaka {
@@ -223,23 +230,46 @@
         width: 100vw;
     }
     .HANAKO {
-        font-size: 20px;
-        transform: translate(-2%, -1000%);
+         transform: translate(0%, -840%);
+        font-size: 1.2rem;
+        padding-left: 0px;
+        margin-left: 0%;
+        margin-right: 0%;
+        text-align: center;
+        font-family: Arial;
     }
     .HANAKO2 {
-        font-size: 20px;
-        transform: translate(-2%, -255%);
+        padding: 8px;
+        font-size: 1.2rem;
+        transform: translate(0%, -202%);
+        font-family: 'Open Sans', sans-serif;;
+        box-shadow: 2px 2px black;
     }
     .tarou {
-        font-size: 20px;
-        transform: translate(-2%, -1220%);
+        font-size: 1.2rem;
+        transform: translate(0%, -1100%);
+        padding-left: 0px;
+        margin-left: 0%;
+        margin-right: 0%;
+        text-align: center;
+        font-family: Arial;
     }
     .TAROU {
         font-size: 20px;
-        transform: translate(-2%, -425%);
+        transform: translate(0%, -470%);
+        white-space: normal;
+        box-shadow: 2px 2px black ;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        margin-bottom: 1px;
+        font-family: 'Open Sans', sans-serif;;
     }
     .Narumi {
-        font-size: 20px;
-        transform: translate(-2%, -1270%);
+       font-size: 20px;
+        transform: translate(0%, -1240%);
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+        font-family: arial;
     }
 }
